@@ -88,7 +88,7 @@ I couldn't run it on the cluster and I have to run it in my local computer.
 
 It did not open a web browser and gave a output as shown below.:
 
-
+![alt text](https://github.com/bshrestha0/WGD_tutorial/blob/main/bokeh_server_log.png)
 I copied the URL shown in the log (http://localhost:5006/) in the web browser and execute the following command:
 
 `wgd viz -i -ks ath.mcl.ks.tsv,ath.mcl.ks_anchors.tsv -l full,anchors`
