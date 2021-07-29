@@ -1,0 +1,80 @@
+2021-06-30 11:46:25: INFO	Preparing data frame
+2021-06-30 11:46:26: INFO	 .. max_iter = 1000
+2021-06-30 11:46:26: INFO	 .. n_init   = 1
+2021-06-30 11:46:26: INFO	Method is GMM, interpret best model with caution!
+2021-06-30 11:46:26: INFO	Fitting GMM with 1 components
+2021-06-30 11:46:26: INFO	Component mean, variance, weight: 
+2021-06-30 11:46:26: INFO	.. 0.897, 0.839, 1.000
+2021-06-30 11:46:26: INFO	Fitting GMM with 2 components
+2021-06-30 11:46:26: INFO	Component mean, variance, weight: 
+2021-06-30 11:46:26: INFO	.. 1.238, 0.331, 0.738
+2021-06-30 11:46:26: INFO	.. 0.361, 1.148, 0.262
+2021-06-30 11:46:26: INFO	Fitting GMM with 3 components
+2021-06-30 11:46:27: INFO	Component mean, variance, weight: 
+2021-06-30 11:46:27: INFO	.. 2.269, 0.029, 0.277
+2021-06-30 11:46:27: INFO	.. 0.840, 0.210, 0.553
+2021-06-30 11:46:27: INFO	.. 0.246, 1.102, 0.171
+2021-06-30 11:46:27: INFO	Fitting GMM with 4 components
+2021-06-30 11:46:28: INFO	Component mean, variance, weight: 
+2021-06-30 11:46:28: INFO	.. 0.868, 0.118, 0.467
+2021-06-30 11:46:28: INFO	.. 2.196, 0.038, 0.323
+2021-06-30 11:46:28: INFO	.. 0.337, 0.226, 0.157
+2021-06-30 11:46:28: INFO	.. 0.093, 1.008, 0.053
+2021-06-30 11:46:28: INFO	Fitting GMM with 5 components
+2021-06-30 11:46:28: INFO	Component mean, variance, weight: 
+2021-06-30 11:46:28: INFO	.. 1.052, 0.072, 0.287
+2021-06-30 11:46:28: INFO	.. 0.282, 0.186, 0.125
+2021-06-30 11:46:28: INFO	.. 0.641, 0.076, 0.230
+2021-06-30 11:46:28: INFO	.. 0.077, 0.890, 0.044
+2021-06-30 11:46:28: INFO	.. 2.226, 0.033, 0.313
+2021-06-30 11:46:28: INFO	
+2021-06-30 11:46:28: INFO	AIC assessment:
+2021-06-30 11:46:28: INFO	min(AIC) = 22741.07 for model 4
+2021-06-30 11:46:28: INFO	Relative probabilities compared to model 4:
+2021-06-30 11:46:28: INFO	   /                          \
+2021-06-30 11:46:28: INFO	   |      (min(AIC) - AICi)/2 |
+2021-06-30 11:46:28: INFO	   | p = e                    |
+2021-06-30 11:46:28: INFO	   \                          /
+2021-06-30 11:46:28: INFO	.. model   1: p = 0.0000
+2021-06-30 11:46:28: INFO	.. model   2: p = 0.0000
+2021-06-30 11:46:28: INFO	.. model   3: p = 0.0000
+2021-06-30 11:46:28: INFO	.. model   4: p = 1.0000
+2021-06-30 11:46:28: INFO	.. model   5: p = 0.0073
+2021-06-30 11:46:28: INFO	
+2021-06-30 11:46:28: INFO	
+2021-06-30 11:46:28: INFO	Delta BIC assessment: 
+2021-06-30 11:46:28: INFO	min(BIC) = 22820.36 for model 4
+2021-06-30 11:46:28: INFO	.. model   1: delta(BIC) =  3746.86 (    >10: Very Strong)
+2021-06-30 11:46:28: INFO	.. model   2: delta(BIC) =  1970.91 (    >10: Very Strong)
+2021-06-30 11:46:28: INFO	.. model   3: delta(BIC) =    45.32 (    >10: Very Strong)
+2021-06-30 11:46:28: INFO	.. model   4: delta(BIC) =     0.00 (0 to  2:   Very weak)
+2021-06-30 11:46:28: INFO	.. model   5: delta(BIC) =    31.47 (    >10: Very Strong)
+2021-06-30 11:46:28: INFO	
+2021-06-30 11:46:28: INFO	Plotting AIC & BIC
+2021-06-30 11:46:28: INFO	Plotting mixtures
+2021-06-30 11:46:34: INFO	Writing component-wise probabilities to file
+2021-06-30 11:46:40: INFO	Preparing data frame
+2021-06-30 11:46:42: INFO	 .. max_iter = 1000
+2021-06-30 11:46:42: INFO	 .. n_init   = 1
+2021-06-30 11:46:42: INFO	Method is BGMM, weights are informative for best model
+2021-06-30 11:46:42: INFO	 .. gamma    = 0.001
+2021-06-30 11:46:42: INFO	Fitting BGMM with 1 components
+2021-06-30 11:46:42: INFO	.. 0.897, 0.839, 1.000
+2021-06-30 11:46:42: INFO	Fitting BGMM with 2 components
+2021-06-30 11:46:43: INFO	.. 0.292, 1.249, 0.191
+2021-06-30 11:46:43: INFO	.. 1.167, 0.377, 0.809
+2021-06-30 11:46:43: INFO	Fitting BGMM with 3 components
+2021-06-30 11:46:44: INFO	.. 0.869, 0.246, 0.591
+2021-06-30 11:46:44: INFO	.. 2.322, 0.024, 0.244
+2021-06-30 11:46:44: INFO	.. 0.245, 1.144, 0.165
+2021-06-30 11:46:44: INFO	Fitting BGMM with 4 components
+2021-06-30 11:46:46: INFO	.. 0.927, 0.179, 0.512
+2021-06-30 11:46:46: INFO	.. 0.113, 1.333, 0.055
+2021-06-30 11:46:46: INFO	.. 2.310, 0.025, 0.261
+2021-06-30 11:46:46: INFO	.. 0.372, 0.387, 0.172
+2021-06-30 11:46:46: INFO	Plotting mixtures
+2021-06-30 11:46:53: WARNING	Method is BGMM, unable to choose best model!
+2021-06-30 11:46:53: INFO	Taking model with most components for the component-wiseprobability output file.
+2021-06-30 11:46:53: INFO	To get the output file for a particular number of components, run wgd mix again 
+2021-06-30 11:46:53: INFO	with the desired component number as maximum.
+2021-06-30 11:46:53: INFO	Writing component-wise probabilities to file
