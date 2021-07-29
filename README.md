@@ -52,12 +52,9 @@ If the transcript multifasta file is not wrapped, then use:
 
 If the multifasta is wrapped, samtools can be used to extract transcripts of interest:
 
-`awk '/AT[1-9]G/ {print $1}' arabidopsis.cds | sed 's/^.//' > id.txt
+`awk '/AT[1-9]G/ {print $1}' arabidopsis.cds | sed 's/^.//' > id.txt`
 
-while read line;
-        do
-	samtools faidx arabidopsis.cds $line >> ath.filtered.cds ;
-done < id.txt`
+`while read line; do samtools faidx arabidopsis.cds $line >> ath.filtered.cds ; done < id.txt`
 
 ## Running WGD
 ### All-vs-all blast + MCL clustering
@@ -91,4 +88,4 @@ It did not open a web browser and gave a output as shown below.:
 ![alt text](https://github.com/bshrestha0/WGD_tutorial/blob/main/bokeh_server_log.png)
 I copied the URL shown in the log (http://localhost:5006/) in the web browser and execute the following command:
 
-`wgd viz -i -ks ath.mcl.ks.tsv,ath.mcl.ks_anchors.tsv -l full,anchors`
+`wgd viz -i -ks ath.mcl.ks.tsv,ath.mcl.ks_anchors.tsv -l full,anchors --interactive `
