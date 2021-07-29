@@ -66,7 +66,7 @@ If the multifasta is wrapped, samtools can be used to extract transcripts of int
 
 `wgd ksd ath.mcl ath.filtered.cds -o ./Ks_distribution -n 8`
 
-#Run I-ADHoRe and get an anchor-point KS distribution and dotplots.
+### Run I-ADHoRe and get an anchor-point KS distribution and dotplots.
 
 `wgd syn ath.gff ath.mcl -ks ath.mcl.ks.tsv -f gene -a ID`
 
@@ -86,6 +86,7 @@ I couldn't run it on the cluster and I have to run it in my local computer.
 It did not open a web browser and gave a output as shown below.:
 
 ![alt text](https://github.com/bshrestha0/WGD_tutorial/blob/main/bokeh_server_log.png)
-I copied the URL shown in the log (http://localhost:5006/) in the web browser and execute the following command:
+
+Copy the URL shown in the log (http://localhost:5006/) in the web browser and execute the following command:
 
 `wgd viz -i -ks ath.mcl.ks.tsv,ath.mcl.ks_anchors.tsv -l full,anchors --interactive `
